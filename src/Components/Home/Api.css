@@ -1,0 +1,15 @@
+.description {
+  max-height: 18.4rem;
+  font-size: 1rem;
+  display: flexbox;
+  font-weight: 100;
+  margin-left: -32rem;
+  color: rgb(3, 3, 73);
+  overflow: hidden;
+}
+.random {
+  color: rgb(3, 3, 73);
+  font-size: 2rem;
+  margin-left: -42rem;
+  margin-top: 23rem;
+}

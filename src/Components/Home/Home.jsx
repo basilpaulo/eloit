@@ -5,6 +5,10 @@ import { BsTelephoneX } from "react-icons/bs";
 import { IoIosSearch } from "react-icons/io";
 import logo from '../Assets/logo.avif'
 import Menu from './Menu';
+import Api from './Api';
+import { CgPlayButtonO } from "react-icons/cg";
+import { MdOutline360 } from "react-icons/md";
+import { BsArrowUpRightCircle } from "react-icons/bs";
 
 
 
@@ -27,8 +31,35 @@ const Home = () => {
   <div className='menu'> <Menu /> </div>
 
  </div> 
- <div className='why'>Why Eloit Global School ?</div>
-       
+ <div className='why'>
+ <Api /> 
+ <div className='let' >Let there be</div> <div className='light'>Light </div>
+ <div className='watch'><CgPlayButtonO className='play'/>Watch our video <MdOutline360 className='six' /> Virtual Tour</div>
+ <span></span>
+ 
+  </div>
+  <div className='know'> Know more about us
+  <BsArrowUpRightCircle className='arrow'/>  
+  </div>
+
+  <div className='foot'>
+  <ul>5000+</ul> 
+  <ul>200+</ul>
+  <ul>50+</ul>
+  <ul>100%</ul>
+  <ul>500+</ul>
+  <ul>200+</ul>
+  </div>
+  <div className='list'>
+  <ul className='stud '>Students</ul> 
+  <ul className='teach '>Teachers</ul>
+  <ul className='year '>Years of Legacy</ul>
+  <ul className='result '>Results For Board Exams</ul>
+  <ul className='aiims '>AIIMS Admissions</ul>
+  <ul className='iit '>IIT Admissions</ul>
+  </div>
+  
+
 
         </div>
 
