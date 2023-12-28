@@ -7,7 +7,7 @@ const API_URL = 'https://api.publicapis.org/entries';
 
 const Api = () => {
   const [apiData, setApiData] = useState([]);
-  const [selectedEntry, setSelectedEntry] = useState(null);
+  const [selectedEntry] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -27,7 +27,7 @@ const Api = () => {
   return (
     <Router>
       <div>
-        <h1  className='random'>Why Eloit Global School ?</h1>
+        <h1  className='random'>Why Eloit Global School ? </h1>
         <ul className="description">
           {apiData.map((entry) => (
             <ul key={entry.Description} className="description">

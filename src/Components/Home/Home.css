@@ -49,7 +49,7 @@
   height: 13rem;
   width: 16rem;
   margin-top: -6rem;
-  margin-left: 71rem;
+  margin-left: 70.5rem;
 }
 
 .search-icon {
@@ -107,19 +107,19 @@
   margin-left: 16rem;
   color: black;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 400;
 }
 .know {
   font-size: 2rem;
   margin-left: -60rem;
   margin-top: -3rem;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 2rem;
 }
 
 .arrow {
   color: rgb(34, 153, 226);
-  font-weight: 300;
+  font-weight: 500;
   margin-left: 1rem;
 }
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import HomeImage from '../Assets/Home.jpg';
 import AdmissionImage from '../Assets/Admission.jpg';
 import AcademicsImage from '../Assets/Academics.jpg';
@@ -12,7 +12,13 @@ import './Menu.css';
 const galleryImages = [GalleryClassroom, GalleryClassroomP, Gallery];
 
 const Menu = () => {
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItem, setSelectedItem] = useState('Home');
+
+  useEffect(() => {
+    
+    const homeImage = getImagePath('Home');
+  
+  }, []); 
 
   const handleItemClick = (itemName) => {
     console.log(`Clicked on ${itemName}`);
@@ -52,9 +58,7 @@ const Menu = () => {
       <ul className={selectedItem === 'Gallery' ? 'active' : ''} onClick={() => handleItemClick('Gallery')}>Gallery</ul>
       <ul className={selectedItem === 'About Us' ? 'active' : ''} onClick={() => handleItemClick('About Us')}>About Us</ul>
 
-      {selectedItem && (
-        <img className='image-style' src={getImagePath(selectedItem)} alt={selectedItem} />
-      )}
+      <img className='image-style' src={getImagePath(selectedItem)} alt={selectedItem} />
     </div>
   );
 };
