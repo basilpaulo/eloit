@@ -1,0 +1,78 @@
+.badge {
+  background-color: rgb(3, 3, 73);
+  width: 100%;
+}
+.telephone-icon {
+  margin-left: 40rem;
+  width: 1rem;
+  height: 1rem;
+}
+.number {
+  font-weight: 30;
+  margin-left: 0.5rem;
+}
+
+.mail-icon {
+  margin-left: 1rem;
+  width: 1rem;
+  height: 1rem;
+}
+.mail-id {
+  font-weight: 30;
+  margin-left: 0.5rem;
+}
+.enquire {
+  font-weight: 30;
+  margin-left: 5rem;
+}
+.logo {
+  width: 5rem;
+  height: 5rem;
+  margin-left: -73rem;
+  margin-top: 1rem;
+}
+
+.school-name {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: rgb(3, 3, 73);
+}
+.kakkanad {
+  font-weight: 600;
+  margin-top: -2rem;
+  margin-left: -75.2rem;
+  font-size: 1.4rem;
+  color: rgb(3, 3, 73);
+}
+
+.input-groroundedup {
+  height: 13rem;
+  width: 16rem;
+  margin-top: -6rem;
+  margin-left: 71rem;
+}
+
+.search-icon {
+  height: 2rem;
+  width: 2rem;
+  margin-top: -25.2rem;
+  margin-left: 81rem;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  font-weight: 500;
+  height: 2rem;
+  margin-top: -6.5rem;
+  margin-left: 16rem;
+  cursor: pointer;
+}
+
+.why {
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: rgb(78, 11, 247);
+  margin-top: 16rem;
+}

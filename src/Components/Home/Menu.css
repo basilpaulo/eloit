@@ -1,0 +1,14 @@
+.image-style {
+  width: 70rem;
+  height: 26rem;
+  margin-top: 4rem;
+  margin-left: -51rem;
+}
+
+.menu ul.active {
+  color: #0fadec;
+}
+
+.menu ul:hover {
+  text-decoration: underline;
+}
